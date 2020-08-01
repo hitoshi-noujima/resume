@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.v-application {
+    .work {
+        h2 {
+            margin-bottom: 0.75em;
+            padding: 0.3em 0.75em;
+            border-radius: 4px;
+            background: #f1f1f1;
+        }
+        h3,
+        h4 {
+            margin-bottom: 0.5em;
+        }
+        section {
+            margin-bottom: 1.5em;
+        }
+        p {
+            margin-bottom: 0.5em;
+        }
+        a {
+            &:hover {
+                color: darken(#1976d2, 10%);
+                text-decoration: none;
+            }
+        }
+        table {
+            width: 100%;
+            margin-bottom: 1em;
+            border-left: 1px solid #ddd;
+            border-collapse: collapse
+        }
+        thead th {
+            text-align: left;
+            background-color: #eee
+        }
+        th {
+            padding: 1em;
+            font-weight: bold;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+        }
+        td {
+            padding: 1em;
+            vertical-align: baseline;
+            border-bottom: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+        }
+        ul,
+        ol {
+            padding-left: 1.75em;
+        }
+        dl + dl {
+            margin-top: 0.75em;
+        }
+        dt {
+            font-weight: bold;
+        }
+        dd {
+            dl {
+                padding-left: 2em;
+            }
+        }
+        hr {
+            margin: 0.75em 0;
+            border: 0;
+            height: 1px;
+            background-color: #ddd;
+        }
+    }
+}

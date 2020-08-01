@@ -1,8 +1,12 @@
 .DS_Store
 node_modules
-/dist
+/functions/public
+
+public/file
+src/assets/file
 
 # local env files
+.env
 .env.local
 .env.*.local
 
@@ -20,3 +24,5 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+.firebaserc

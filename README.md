@@ -1,4 +1,4 @@
-# resume2
+# resume
 
 ## Project setup
 ```
@@ -22,3 +22,18 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+---
+
+### Local
+```
+firebase serve
+```
+
+### Deploy
+```
+firebase deploy
+```
+
+### Details
+[Firebase Hosting](https://firebase.google.com/docs/hosting?hl=ja)
