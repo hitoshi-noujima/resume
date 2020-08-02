@@ -9,7 +9,7 @@ $grid-breakpoints: (
     'xl': 1920px - 16px
 ) !default;
 $container-max-widths: (
-    'md': map-get($grid-breakpoints, 'md') * 0.75,
+    'md': map-get($grid-breakpoints, 'md') * 0.9375,
     'lg': map-get($grid-breakpoints, 'lg') * 0.75,
     'xl': map-get($grid-breakpoints, 'xl') * 0.75
 ) !default;

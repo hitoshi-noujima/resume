@@ -6,7 +6,7 @@
         <v-btn class="text-none" :href="getGitHubAccount" text>
             <v-icon left>mdi-github</v-icon>GitHub
         </v-btn>
-        <p class="mt-5 mb-2">※ このサイトは以下の構成で作成しました</p>
+        <p class="mt-5 mb-2">※ このサイトは以下の構成です</p>
         <ul>
             <li>Firebase Hosting</li>
             <li>Cloud Functions for Firebase</li>

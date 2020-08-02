@@ -5,6 +5,7 @@ import store from './store';
 import vuetify from './plugins/vuetify';
 
 import '@/scss/app.scss';
+import '@/scss/print.scss';
 
 Vue.config.productionTip = false;
 

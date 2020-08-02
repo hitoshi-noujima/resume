@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media print {
+    @page {
+        margin: 2cm 0.5cm;
+    }
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+    * {
+        color: #000 !important;
+        text-shadow: none !important;
+        box-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    thead {
+        display: table-header-group;
+        &:nth-of-type(2) {
+            display: none;
+        }
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 2;
+        widows: 2;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+    .v-tabs {
+        display: none;
+    }
+    .work_break {
+        page-break-before: always;
+    }
+}
